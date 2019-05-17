@@ -1,7 +1,6 @@
-import discord
+import discord, os
 from discord.ext import commands
 from discord.ext.commands import Bot
-import os
 
 Bot = commands.Bot(command_prefix= 'h!')
 
