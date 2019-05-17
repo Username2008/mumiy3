@@ -130,3 +130,4 @@ async def помоги(ctx):
 
 
 token = os.onviron.get('BOT_TOKEN')
+Bot.run(str(token)
