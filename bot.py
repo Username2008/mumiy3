@@ -15,12 +15,12 @@ async def on_message(message):
     if message.content == "Зиллиакс":
         channel = message.channel
         hen = discord.Embed(title= "**Единство! Точность! Совершенство!**", colour= 0xca8ef1)
-        hen.set_image(url= "https://cdn.discordapp.com/attachments/505360396866158593/568746965739896852/maxresdefault_1.jpg)
+        hen.set_image(url= "https://cdn.discordapp.com/attachments/505360396866158593/568746965739896852/maxresdefault_1.jpg")
         await Bot.send_message(channel, embed= hen)
     elif message.content == "Альакир":
         channel = message.channel
         hen = discord.Embed(title= "**Ветра! Повинуйтесь моей воле!**", color= 0xca8ef1 )
-        hen.set_image(url= "https://cdn.discordapp.com/attachments/505360396866158593/568749568750256129/83c014c5ab8d7978.jpg)
+        hen.set_image(url= "https://cdn.discordapp.com/attachments/505360396866158593/568749568750256129/83c014c5ab8d7978.jpg")
         await Bot.send_message(channel, embed= hen)
       
 @Bot.command(pass_context= True)
