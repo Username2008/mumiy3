@@ -127,6 +127,10 @@ async def Мехмастер_Замыкалец(ctx):
     hen.set_image(url= "https://cdn.discordapp.com/attachments/505360396866158593/569882428156542976/Tinkmaster-art_1.jpg")
     await Bot.say(embed= hen)
     await Bot.delete_message(ctx.message)
+   
+@Bot.command(pass_context= True)
+async def Разработчики(ctx):
+   await Bot.say("В разработке бота участвовали: Ваня#1949 а также Псих за компом#666")
 
 
 @Bot.command(pass_context= True)
