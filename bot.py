@@ -17,6 +17,7 @@ async def on_message(message):
         hen = discord.Embed(title= "**Единство! Точность! Совершенство!**", colour= 0xca8ef1)
         hen.set_image(url= "https://cdn.discordapp.com/attachments/505360396866158593/568746965739896852/maxresdefault_1.jpg")
         await Bot.send_message(channel, embed= hen)
+         
     elif message.content == "Альакир":
         channel = message.channel
         hen = discord.Embed(title= "**Ветра! Повинуйтесь моей воле!**", color= 0xca8ef1 )
