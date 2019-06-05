@@ -11,7 +11,7 @@ async def on_ready():
 Bot.remove_command('help')
 
 @Bot.event
-async def on_message(message):
+async def on_msg(message):
     if message.content == "Зиллиакс":
         hen = discord.Embed(title= "Единство! Точность! Совершенство!", color= 0xca8ef1 )
         hen.set_image(url= "https://cdn.discordapp.com/attachments/505360396866158593/568746965739896852/maxresdefault_1.jpg")
